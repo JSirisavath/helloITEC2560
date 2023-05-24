@@ -1,0 +1,15 @@
+.Heading1 {
+  background-color: aqua;
+
+  text-align: center;
+
+  color: beige;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.title {
+  contain: content;
+}
