@@ -1,9 +1,14 @@
+body {
+  background-color: darkgoldenrod;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .Heading1 {
   background-color: aqua;
 
   text-align: center;
 
-  color: beige;
+  color: black;
 }
 
 .paragraph {
@@ -12,4 +17,48 @@
 
 .title {
   contain: content;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.btn-hello {
+  margin-top: 2rem;
+  border-radius: 10rem;
+  width: 10rem;
+  height: 5rem;
+  color: white;
+  cursor: pointer;
+  background-color: darksalmon;
+  margin: 0 auto;
+}
+
+.btn-hello:hover {
+  background-color: mistyrose;
+  color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.img-Style {
+  width: 100px;
+  height: auto;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
+li {
+  list-style-type: square;
+}
+
+ul {
+  border-width: 1px;
+  border-color: black;
+  border-style: dashed;
 }
